@@ -1,0 +1,73 @@
+{%extends "layout.html" %}
+
+{% block content %}
+<br>
+<h1>Inputs</h1>
+
+<form name = 'input_form' action="." method="POST">
+    <div >
+      <label>MedInc </label>
+      <input type="number" name="MedInc" placeholder="first_feature" value= 4.17>
+    </div>
+
+    <br>
+
+     <div >
+      <label>HouseAge</label>
+      <input type="number" name="HouseAge" placeholder="seond_feature" value= 40>
+   </div> 
+
+   <br>
+    
+     <div >
+      <label>AveRooms</label>
+      <input type="number" name="AveRooms" placeholder="seond_feature" value= 4.51>
+   </div>
+
+   <br>
+    
+     <div >
+      <label>AveBedrms</label>
+      <input type="number" name="AveBedrms" placeholder="seond_feature" value= 1.08>
+   </div>
+
+   <br>
+    
+     <div >
+      <label>Population</label>
+      <input type="number" name="Population" placeholder="seond_feature" value= 667>
+   </div>
+
+   <br>
+    
+     <div >
+      <label>AveOccup</label>
+      <input type="number" name="AveOccup" placeholder="seond_feature" value= 2.83>
+   </div>
+
+   <br>
+    
+     <div >
+      <label>Latitude</label>
+      <input type="number" name="Latitude" placeholder="seond_feature" value= 37.79>
+   </div>
+
+   <br>
+    
+     <div >
+      <label>Longitude</label>
+      <input type="number" name="Longitude" placeholder="seond_feature" value= -122.20>
+   </div>
+
+
+   <br>
+   <br>
+   
+  </form>
+  <div>
+    <button class="ui button" type="submit">Submit</button>
+   </div>
+
+  <h1> Prediction :  {{25}}  </h1> 
+
+{% endblock %}
